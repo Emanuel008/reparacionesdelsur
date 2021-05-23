@@ -1,0 +1,24 @@
+-----discripcion general sobre la web-------------------
+-utilice bootstrap v4, cambiando la secciones y modificando elementos
+-utilice html y css
+-el bootstrap maneja js asi que esta implementadas sos respectivas librerias
+-optimizacion de imagenes en galeria de acuerdo al tamaño que ocupan (px)
+-optimizacion de imagenes de carrucel
+-optimizacion del codigo de bootstrap (limpieza)
+-utilizacion de clases de css
+-implementacion de etiquetas meta content (keywords, description)
+-codigo de los archivos html y css comentados indicando que lugar/seccion corresponden
+-implementacion de google fonts
+-utilice el preprocesador sass
+------------informacion extra importante-------------------
+hay librerias dentro de bootstrap de js en el fondo de los html que decidi no sacarlas, si bien hice pruebas,
+nose para que servian totalmente, o si afectarian sacarlas totalmente de bootstrap, ejemplo : php-email-form/validate.js
+claramente tiene que ver con la parte de email, si la pagina tubiera esa seccion, pero la parte de "php" me genero dudas.
+-----------------------------------------------------------
+lo mismo pasa con una seccion del html: section id="breadcrumbs" . si bien pude limpiar todas las partes que no iba a usar
+del html, al querar limpiar esa seccion completamente, el bootstrap se "descolocaba", el espacio que ocupa incluso sin texto
+hace que al sacarlo se desconfiguren el orden las cosas, asi que la comente y la deje, como la pagina es para un amigo, si mas adelante
+quiere hacer un seccion de logotipos de empresas con las que trabajo, a esa seccion se le de utilidad.
+-----------------------------------------------------------
+el css lo limpie casi por completo de las cosas que nose aplicaban, era mucho mas extenso que este que esta en el proyecto
+por que el bootstrap, en si, tenia muchas secciones y un menu desplegable que limpie al no darle utilidad.
